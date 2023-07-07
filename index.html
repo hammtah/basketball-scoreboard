@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Basketball Scoreboard</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="home">
+            <h2>HOME</h2>
+            <h3 id="home-score">00</h3>
+            <section class="buttons">
+                <button class="button" onclick="home.score_function(1)">+1</button>
+                <button class="button" onclick="home.score_function(2)">+2</button>
+                <button class="button" onclick="home.score_function(3)">+3</button>
+
+            </section>
+            <p class="leader-home"></p>
+        </div>
+        <div class="guest">
+            <h2>GUEST</h2>
+            <h3 id="guest-score">00</h3>
+            <section class="buttons">
+                <button class="button" onclick="guest.score_function(1)">+1</button>
+                <button class="button" onclick="guest.score_function(2)">+2</button>
+                <button class="button" onclick="guest.score_function(3)">+3</button>
+
+            </section>
+            <p class="leader-guest"></p>
+        </div>
+    </div>
+    <script src="script copy.js"></script>
+    <!--The first script is more complicated so i tried in the script copy to implement objects to simplify the script and employing new concepts(objects)-->
+</body>
+
+</html>
